@@ -1,0 +1,52 @@
+.OngoingMatch {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.OngoingMatch-over {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(16px + 3vmin);
+}
+
+.OngoingMatchSide {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.OngoingMatchGoals {
+	position: absolute;
+	transform-origin: top center;
+}
+
+.OngoingMatch-button {
+	border: none;
+	border-radius: 2rem;
+	user-select: none;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.OngoingMatch-button-plus {
+	width: calc(100% - 8rem);
+	height: calc(100% - 16rem);
+	background-color: #3f7fff;
+	font-size: calc(20px + 20vmin);
+	font-weight: bold;
+}
+
+.OngoingMatch-button-minus {
+	width: calc(100% - 50vmin);
+	min-width: 8rem;
+	height: 8rem;
+	background-color: #ff7f3f;
+	font-size: calc(16px + 2vmin);
+}
