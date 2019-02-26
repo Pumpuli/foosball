@@ -45,6 +45,7 @@ export default function OngoingMatch({ history }: Props) {
 	) : (
 		<div className="OngoingMatch">
 			<OngoingMatchSide goals={goals1} onGoalsChange={goals => changeGoals1(goals)} />
+			<button type="button" className="OngoingMatch-close" onClick={() => history.push('/')}>Close</button>
 			<OngoingMatchSide goals={goals2} onGoalsChange={goals => changeGoals2(goals)} />
 		</div>
 	);
